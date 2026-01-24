@@ -1,0 +1,103 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estrutura da página */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #858585;
+}
+
+/* Main ocupa o espaço disponível */
+main {
+  flex: 1;
+}
+
+.texto {
+  color: #ffffff;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+/* Títulos com fundo do tamanho do texto */
+h1, h2 {
+  width: fit-content;
+  margin: 10px auto; /* centraliza */
+  background: #000000;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+/* Centralização específica do título das linguagens */
+.titulologo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+ul.texto {
+  margin-left: 40px;
+}
+
+/* Carrossel */
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.carousel-track {
+  width: 300px;
+  overflow: hidden;
+}
+
+.carousel-track img {
+  width: 100%;
+  display: none;
+}
+
+.carousel-track img.active {
+  display: block;
+}
+
+/* Botões */
+.carousel-btn {
+  background: #000000;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.carousel-btn:hover {
+  background: #000000;
+}
+
+footer {
+  background: #000000;
+  color: #fff;
+  padding: 10px;
+}
+
+.direitos {
+  text-align: center;
+  font-size: 14px;
+}
+
+.html { color: #e44d26; }   /* HTML */
+.css  { color: #264de4; }  /* CSS */
+.js   { color: #f7df1e; }  /* JS */
