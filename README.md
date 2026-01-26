@@ -17,8 +17,8 @@ Desenvolvimento-Web/
 │   └── style.css
 ├── js/
 │   └── script.js
-└── assets/
-    └── imagens/
+└── img/
+    └── imagensLogo
     
 ▶️ Como Executar o Projeto:
 - Clone este repositório: git clone https://github.com/Esdra-Fontes/Desenvolvimento-Web.git
